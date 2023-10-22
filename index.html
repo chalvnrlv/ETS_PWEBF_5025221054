@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jankenpon!</title>
+    <link rel="stylesheet" href="s-logreg.css">
+</head>
+<body>
+
+    <div class="wrap">
+        <form id="authForm">
+
+            <h1>Login to Play</h1>
+
+            <div class="inputbox">
+                <input type="text" placeholder="Email" id="loginEmail" required>
+                <i class='bx bxs-user-circle'></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="password" placeholder="Password" id="loginPassword" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}" required>
+                <i class='bx bx-key'></i>
+            </div>
+
+            <div id="container">
+                <button type="submit" class="btn" id="loginButton">Login</button>
+            </div>
+
+            <p >Belum punya akun?</p>
+
+            <div class="daftar">
+                <a href="register.html">Daftar disini!</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="logreg.js">
+        
+    </script>
+</body>
+</html>

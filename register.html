@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register of Shooting Stars</title>
+    <link rel="stylesheet" href="s-logreg.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <div class="wrap">
+        <form id="authForm">
+            <h1>Register</h1>
+            <div class="inputbox">
+                <input type="text" placeholder="Name" id="registerName" required>
+                <i class='bx bxs-id-card'></i>
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="Email" id="registerEmail" required>
+                <i class='bx bxs-user-circle'></i>
+            </div>
+            <div class="inputbox">
+                <input type="password" placeholder="Password" id="registerPassword" required>
+                <i class='bx bx-key'></i>
+            </div>
+            <div id="container">
+                <button type="submit" class="btn" id="registerButton">Register</button>
+            </div>
+        </form>
+    </div>
+    <script src="logreg.js"></script>
+</body>
+</html>
